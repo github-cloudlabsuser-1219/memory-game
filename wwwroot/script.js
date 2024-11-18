@@ -17,6 +17,7 @@ window.onload = function () {
             cards.forEach(card => {
                 gameBoard.appendChild(card);
             });
+            gameBoard.style.gridTemplateColumns = 'repeat(4, 1fr)'; // Set grid to 4 columns
         })
         .catch(error => {
             console.error('Error fetching data:', error);
@@ -33,7 +34,7 @@ window.onload = function () {
         card.appendChild(img);
 
         card.addEventListener('click', flipCard);
-c
+
         return card;
     }
 
@@ -79,7 +80,7 @@ c
 
     function resetGame() {
         gameBoard.innerHTML = '';
-        shuffle(cards);
+        shuffle(cards); // Shuffle cards before resetting the game
         cards.forEach(card => {
             card.classList.remove('flipped', 'matched');
             gameBoard.appendChild(card);

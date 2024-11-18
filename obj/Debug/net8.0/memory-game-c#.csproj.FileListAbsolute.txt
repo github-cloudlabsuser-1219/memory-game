@@ -50,3 +50,4 @@ c:\LabFiles\GitHub-Copilot-Hack-memory-game-c-\obj\Debug\net8.0\refint\memory-ga
 c:\LabFiles\GitHub-Copilot-Hack-memory-game-c-\obj\Debug\net8.0\memory-game-c#.pdb
 c:\LabFiles\GitHub-Copilot-Hack-memory-game-c-\obj\Debug\net8.0\memory-game-c#.genruntimeconfig.cache
 c:\LabFiles\GitHub-Copilot-Hack-memory-game-c-\obj\Debug\net8.0\ref\memory-game-c#.dll
+c:\LabFiles\GitHub-Copilot-Hack-memory-game-c-\obj\Debug\net8.0\memory-game-c#.sourcelink.json
